@@ -16,8 +16,8 @@ Install python requirements
 Download Data at: https://doi.org/10.5683/SP2/LMRVFN
 
 Run python watershed.py to create cropped images. 
- - Make sure original image is tight to interested arthropods with a white background similar to example images.
- - Make sure images are named: "group"_"subgroup"_"uniqueID" such as "Araneae_Unknown_2020_10_16_4334". Captialization matters.
+Make sure original image is tight to interested arthropods with a white background similar to example images.
+Make sure images are named: "group"_"subgroup"_"uniqueID" such as "Araneae_Unknown_2020_10_16_4334". Captialization matters.
 
 args:
  - 	-- data_name: name of dataset. Important to set for custom projects
@@ -40,7 +40,7 @@ args:
 
 
 Run python predict.py to create report on testing set.
- - predict against images in the "test_images" directory
+Predict against images in the "test_images" directory
 args:
  -	-- data_name: name of dataset. Must be the same as used in train.py
  -	-- arch: neural net used. Must be one of "densenet", "resnet", or "mobilenet". Must be one already trained
