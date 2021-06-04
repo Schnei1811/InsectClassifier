@@ -19,13 +19,13 @@ Run python watershed.py to create cropped images.
  - Make sure original image is tight to interested arthropods with a white background similar to example images.
  - Make sure images are named: "group"_"subgroup"_"uniqueID" such as "Araneae_Unknown_2020_10_16_4334". Captialization matters.
 
-	args:
-	-- data_name: name of dataset. Important to set for custom projects
-	-- threshold: black pixel value segmentation threshold
-	-- div: reduced resolution
-	-- extension: saved image extension
-	-- density: calculate pixel counts per watershed sample
-	-- multiprocess: enable multiprocessing
+ - args:
+ - 	-- data_name: name of dataset. Important to set for custom projects
+ - 	-- threshold: black pixel value segmentation threshold
+ - 	-- div: reduced resolution
+ - 	-- extension: saved image extension
+ - 	-- density: calculate pixel counts per watershed sample
+ - 	-- multiprocess: enable multiprocessing
 
 
 Run python train.py to train model.
