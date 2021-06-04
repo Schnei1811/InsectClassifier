@@ -41,6 +41,7 @@ args:
 
 Run python predict.py to create report on testing set.
 Predict against images in the "test_images" directory
+
 args:
  -	-- data_name: name of dataset. Must be the same as used in train.py
  -	-- arch: neural net used. Must be one of "densenet", "resnet", or "mobilenet". Must be one already trained
