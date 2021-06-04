@@ -16,7 +16,9 @@ Install python requirements
 Download Data at: https://doi.org/10.5683/SP2/LMRVFN
 
 Run python watershed.py to create cropped images. 
+
 Make sure original image is tight to interested arthropods with a white background similar to example images.
+
 Make sure images are named: "group"_"subgroup"_"uniqueID" such as "Araneae_Unknown_2020_10_16_4334". Captialization matters.
 
 args:
@@ -26,7 +28,6 @@ args:
  - 	-- extension: saved image extension
  - 	-- density: calculate pixel counts per watershed sample
  - 	-- multiprocess: enable multiprocessing
-
 
 Run python train.py to train model.
 
@@ -40,6 +41,7 @@ args:
 
 
 Run python predict.py to create report on testing set.
+
 Predict against images in the "test_images" directory
 
 args:
